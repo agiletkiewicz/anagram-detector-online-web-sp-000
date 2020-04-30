@@ -15,6 +15,7 @@ class Anagram
       sorted = word.split("").sort
       if sorted == sorted_word
         anagram_array << sorted.join
+      end
     end
     anagram_array
   end
