@@ -14,7 +14,7 @@ class Anagram
     array.each do |word|
       sorted = word.split("").sort
       if sorted == sorted_word
-        anagram_array << sorted.join
+        anagram_array << word
       end
     end
     anagram_array
